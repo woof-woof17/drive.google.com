@@ -1,7 +1,7 @@
 
 self.__uv$config = {
     prefix: '/service/',
-    bare: 'https://workers.dev',
+    bare: 'https://tomp.app',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
