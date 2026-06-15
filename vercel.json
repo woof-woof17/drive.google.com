@@ -1,7 +1,8 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/://google.com", "destination": "/" },
+    { "source": "/\\\\:google.com", "destination": "/" },
+    { "source": "/drive.google.com", "destination": "/" },
     { "source": "/service/(.*)", "destination": "/" }
   ]
 }
